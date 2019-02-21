@@ -3,6 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    background-color: aquamarine;
+
+/*mobile first - css do mobile*/
+
+header {
+    display:flex;
+    padding:5px 5px 0 5px;
+    background-color: black;
+}
+
+header nav {
+    display: none;
+}
+
+
+#sessao-principal figure img {
+    width: 80%;
+}
+header img {
+    margin-left: calc(50% - 76.01px);
+    height: 55px;
+   
+}
+
+header i {
+    font-size: 2em;
+    color: white;
+
 }
